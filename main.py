@@ -4,7 +4,7 @@ import os
 from fastapi import FastAPI
 import json
 from IPython.display import display, Markdown
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'paste openai api key here'
 
 app = FastAPI()
 
