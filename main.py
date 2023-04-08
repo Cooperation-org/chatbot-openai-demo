@@ -4,12 +4,8 @@ import os
 from pydantic import BaseModel
 from fastapi import FastAPI
 import json
-<<<<<<< HEAD
-from IPython.display import display, Markdown
 os.environ["OPENAI_API_KEY"] = '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'
-=======
-os.environ["OPENAI_API_KEY"] = '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'
->>>>>>> d825ecdb75b46196feb96352d4cd1025c51910d8
+
 
 app = FastAPI()
 
@@ -47,7 +43,5 @@ async def chatbot_handler(input_text: str):
     
 
 
-<<<<<<< HEAD
-=======
 #python -m uvicorn main:app --reload
->>>>>>> d825ecdb75b46196feb96352d4cd1025c51910d8
+
