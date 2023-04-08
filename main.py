@@ -4,7 +4,7 @@ import os
 from fastapi import FastAPI
 import json
 from IPython.display import display, Markdown
-os.environ["OPENAI_API_KEY"] = 'paste openai api key here'
+os.environ["OPENAI_API_KEY"] = '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'
 
 app = FastAPI()
 
@@ -42,4 +42,3 @@ async def chatbot_handler(input_text: str):
     
 
 
-#python -m uvicorn main:app --reload

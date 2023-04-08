@@ -3,7 +3,7 @@ from langchain.chat_models import ChatOpenAI
 import os
 import json
 from IPython.display import display, Markdown
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = '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'
 
 
 def construct_index(directory_path):
