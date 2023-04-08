@@ -25,9 +25,11 @@ python uvicorn main:app --reload
 - Team members can add any text file or pdf in the textdata folder and name it related to their project and the bot will provide answers based on that info
 - The format must be text or pdf but content can be any code , it can't process images or videos
 
-# Sure, here's steps for updating the EC2 instance running our chatbot FastAPI application in a virtual environment and using tmux:
+# Steps for updating the EC2 instance running our chatbot FastAPI application in a virtual environment and using tmux:
 
-
+ The Api Backend is accessible through
+- [chatbot.linkedtrust.us](www.chatbot.linkedtrust.us/docs)
+- [Public IP](http://52.53.248.142/docs)
 ### Instructions on how to update an EC2 instance that is running a FastAPI application in a virtual environment using tmux.
 
 1. Prerequisites
