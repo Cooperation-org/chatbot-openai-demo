@@ -4,8 +4,7 @@ import os
 from pydantic import BaseModel
 from fastapi import FastAPI
 import json
-os.environ["OPENAI_API_KEY"] = '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'
-
+os.environ["OPENAI_API_KEY"] = 'open ai api key'
 
 app = FastAPI()
 
