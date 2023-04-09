@@ -10,7 +10,8 @@ app = FastAPI()
 
 class ConversationHistory:
     def __init__(self):
-        self.history = "Below is the conversation you just had so answer accordingly\n"
+        self.history = "Below is the conversation you just had so answer accordingly"
+        self.history = self.history + '\n'
 
     def add_input(self, input_text):
         self.history = self.history +'ques: '+ input_text
